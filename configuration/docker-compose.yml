@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  php:
+    image: romeoz/docker-apache-php:7.2
+    volumes:
+      - ../:/var/www/app/
+    ports:
+      - "80:80"

@@ -1,0 +1,16 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "- Docker",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd configuration && docker-compose up -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://louis-yng@bitbucket.org/FluidStudiosStaff/docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/FluidStudiosStaff/docker#readme"
+}
