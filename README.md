@@ -1,10 +1,15 @@
 # Docker
 
+Docker boilerplate for spinning up an instance of a PHP server.
+
+![Docker](documentation/docker.jpg)
+
 ## Dependencies
 
 - Docker
+- Node Package Manager
 
 ## Setup
 
-- Clone the repository and change directory in to `configuration`.
-- Run `docker-compose up` to pull down the image and start the container.
+- Clone the repository.
+- Run `$ npm run server`.
